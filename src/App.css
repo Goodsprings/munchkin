@@ -1,32 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great);
+
+body {
+  font-family: 'Fredericka the Great';
+  font-size: 2em;
+  font-weight: bold;
+  color: #4c251d;
+}
+
 .App {
+  text-align: center;
+  border: 6vw solid #4c251d;
+  border-radius: 12vw;
+  background-color: #FFECA1;
+  padding: 0 15vw;
+  padding-top: 5vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a {
+  text-decoration: none;
+  color: #4c251d;
+  cursor: pointer;
+}
+
+a:last-child {
+  font-size: 0.7em;
+}
+
+td {
+  padding: 0;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+td:first-child {
+  text-align: left;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+td:nth-child(2) {
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (orientation: portrait) {
+  body {
+    max-height: 80%;
+    max-width: 90%;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+@media screen and (orientation: landscape) {
+  body { max-height: 90%; }
 }
