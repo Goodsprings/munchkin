@@ -9,7 +9,6 @@ body {
 
 .App {
   max-width: 200px;
-  text-align: center;
   border: 20px solid #4c251d;
   border-radius: 30px;
   background-color: #FFECA1;
@@ -28,7 +27,7 @@ a {
 }
 
 a:last-child {
-  font-size: .7em;
+  font-size: .8em;
 }
 
 td {
@@ -36,16 +35,18 @@ td {
   text-align: center;
 }
 
-td:first-child {
-  text-align: left;
-}
-
 td:nth-child(2) {
+  text-align: left;
+  min-width: 128px;
 }
 
 #new {
   font-size: .5em;
-  float: left;
+  margin-left: 10px;
+}
+
+.pencil {
+  font-size: .9em !important;
 }
 
 @media screen and (orientation: portrait) {
