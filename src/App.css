@@ -8,7 +8,7 @@ body {
 }
 
 .App {
-  max-width: 200px;
+  max-width: 230px;
   border: 20px solid #4c251d;
   border-radius: 30px;
   background-color: #FFECA1;
@@ -33,11 +33,13 @@ a:last-child {
 td {
   padding: 0;
   text-align: center;
+  min-width: 32px;
 }
 
 td:nth-child(2) {
   text-align: left;
   min-width: 128px;
+  max-width: 138px;
 }
 
 #new {
