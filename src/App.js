@@ -66,39 +66,39 @@ class App extends Component {
             <tr>
               <td rowSpan="2">First:</td>
               <td rowSpan="2">{ this.state.first }</td>
-              <td><a href={null} onClick={ () => { this.upLvl(1) } }>▲</a></td>
+              <td><a href="#" onClick={ () => { this.upLvl(1) } }>▲</a></td>
             </tr>
             <tr>
-              <td><a href={null} onClick={ () => { this.downLvl(1) } }>▼</a></td>
+              <td><a href="#" onClick={ () => { this.downLvl(1) } }>▼</a></td>
             </tr>
             <tr>
               <td rowSpan="2" style={{paddingRight:15}}>Second:</td>
               <td rowSpan="2">{ this.state.second }</td>
-              <td><a href={null} onClick={ () => { this.upLvl(2) } }>▲</a></td>
+              <td><a href="#" onClick={ () => { this.upLvl(2) } }>▲</a></td>
             </tr>
             <tr>
-              <td><a href={null} onClick={ () => { this.downLvl(2) } }>▼</a></td>
+              <td><a href="#" onClick={ () => { this.downLvl(2) } }>▼</a></td>
             </tr>
             <tr>
               <td rowSpan="2">Third:</td>
               <td rowSpan="2">{ this.state.third }</td>
-              <td><a href={null} onClick={ () => { this.upLvl(3) } }>▲</a></td>
+              <td><a href="#" onClick={ () => { this.upLvl(3) } }>▲</a></td>
             </tr>
             <tr>
-              <td><a href={null} onClick={ () => { this.downLvl(3) } }>▼</a></td>
+              <td><a href="#" onClick={ () => { this.downLvl(3) } }>▼</a></td>
             </tr>
             <tr>
               <td rowSpan="2">Fourth:</td>
               <td rowSpan="2">{ this.state.fourth }</td>
-              <td><a href={null} onClick={ () => { this.upLvl(4) } }>▲</a></td>
+              <td><a href="#" onClick={ () => { this.upLvl(4) } }>▲</a></td>
             </tr>
             <tr>
-              <td><a href={null} onClick={ () => { this.downLvl(4) } }>▼</a></td>
+              <td><a href="#" onClick={ () => { this.downLvl(4) } }>▼</a></td>
             </tr>
           </tbody>
         </table>
         <br />
-        <a href={null} onClick={
+        <a id="new" href="#" onClick={
             () => {
               this.setState({
                 first: 1,
