@@ -1,13 +1,13 @@
 {
-  "main.css": "/munchkin/static/css/main.8e34a399.chunk.css",
-  "main.js": "/munchkin/static/js/main.d64685c9.chunk.js",
-  "main.js.map": "/munchkin/static/js/main.d64685c9.chunk.js.map",
-  "static/js/1.37f90d57.chunk.js": "/munchkin/static/js/1.37f90d57.chunk.js",
-  "static/js/1.37f90d57.chunk.js.map": "/munchkin/static/js/1.37f90d57.chunk.js.map",
+  "main.css": "/munchkin/static/css/main.b1ea9f05.chunk.css",
+  "main.js": "/munchkin/static/js/main.87b62365.chunk.js",
+  "main.js.map": "/munchkin/static/js/main.87b62365.chunk.js.map",
+  "static/js/1.6eb6405c.chunk.js": "/munchkin/static/js/1.6eb6405c.chunk.js",
+  "static/js/1.6eb6405c.chunk.js.map": "/munchkin/static/js/1.6eb6405c.chunk.js.map",
   "runtime~main.js": "/munchkin/static/js/runtime~main.70765e3c.js",
   "runtime~main.js.map": "/munchkin/static/js/runtime~main.70765e3c.js.map",
-  "static/css/main.8e34a399.chunk.css.map": "/munchkin/static/css/main.8e34a399.chunk.css.map",
+  "static/css/main.b1ea9f05.chunk.css.map": "/munchkin/static/css/main.b1ea9f05.chunk.css.map",
   "index.html": "/munchkin/index.html",
-  "precache-manifest.5e2b68ac39a7a7cadd34f59d1c4c7bc7.js": "/munchkin/precache-manifest.5e2b68ac39a7a7cadd34f59d1c4c7bc7.js",
+  "precache-manifest.f027c7e35dcddda816a52e86b7079024.js": "/munchkin/precache-manifest.f027c7e35dcddda816a52e86b7079024.js",
   "service-worker.js": "/munchkin/service-worker.js"
 }
