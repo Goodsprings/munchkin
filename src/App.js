@@ -59,35 +59,10 @@ class App extends Component {
     }
   }
 
-  rename = (player) => {
-    var name = prompt("Set new name:");
-    if(name.length <= 6) {
-      switch(player) {
-        case 1:
-          document.getElementById("first-name").innerHTML = name + ':';
-          break;
-        case 2:
-          document.getElementById("second-name").innerHTML = name + ':';
-          break;
-        case 3:
-          document.getElementById("third-name").innerHTML = name + ':';
-          break;
-        case 4:
-          document.getElementById("fourth-name").innerHTML = name + ':';
-          break;
-        default:
-          console.log("rename: default");
-      }
-    }
-    else {
-      alert("Max name length is 6, sorry");
-    }
-  }
-
   render() {
     return (
       <div className="App">
-        <Table state={ this.state } upLvl={ this.upLvl } downLvl={ this.downLvl } rename={ this.rename }/>
+        <Table state={ this.state } upLvl={ this.upLvl } downLvl={ this.downLvl } />
         <br />
         <a id="new" href="#" onClick={ () => {
               this.setState({
